@@ -9,5 +9,6 @@ const openMenu = () => {
 
 Array.from(document.querySelectorAll('.header__navigation a')).forEach(elem =>
     elem.addEventListener('click', () => {
+        if(!document.querySelector('.header').classList.contains('active')) return;
         openMenu()
     }));
