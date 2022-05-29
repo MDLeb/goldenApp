@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Meie+Script&family=Montserrat:wght@400;700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <title>WebApp</title>
+</head>
+<body>
+    <header class="header">
+        <div class="content">
+            <div class="header__logo">
+                <span>golden</span>
+            </div>
+            <nav class="header__navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>   
+            <div class="header__burger" onclick="openMenu()">
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>     
+        </div>
+    </header>
+    <section class="section section-home" id="home">
+        <div class="content">
+            <span class="section_subtitle">
+                Welcome to our studio
+            </span>
+            <h2 class="section__h2_title">
+                it&apos;s nice to meet you
+            </h2>
+            <button class="btn section-home__btn ">
+                tell me more
+            </button>
+        </div>
+    </section>
+    <a class="pageup_btn" href="#home">&uparrow;</a>
+    <section class="section section-services" id="services">
+        <div class="content">
+            <h2 class="section__h2_title section-services__title">
+                services
+            </h2>
+            <span class="section_subtitle section_services_subtitle">
+                lorem ipsum dolor sit amet.
+            </span>
+            <div class="section-services__items">
+                <div class="section-services__items_item">
+                    <div class="section-services__items_item_icon">
+                        
+                    </div>
+                    <h3 class="item_h3_title">e-commerce</h3>
+                    <p class="description_text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, ipsam dolorem vitae adipisci nostrum officiis ratione ut nisi.
+                    </p>
+                </div>
+                <div class="section-services__items_item">
+                    <div class="section-services__items_item_icon">
+                                                        
+                    </div>
+                    <h3 class="item_h3_title">responsive web</h3>
+                    <p class="description_text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat labore repellendus architecto sunt qui obcaecati cupiditate consectetur aspernatur?
+                    </p>
+                </div>
+                <div class="section-services__items_item">
+                    <div class="section-services__items_item_icon">
+                                                        
+                    </div>
+                    <h3 class="item_h3_title">web security</h3>
+                    <p class="description_text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloremque sunt ea libero, maxime laborum natus eos eligendi.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-portfolio" id="portfolio">
+        <div class="content">
+            <h2 class="section__h2_title">
+                our portfolio
+            </h2>
+            <span class="section_subtitle">
+                lorem ipsum dolor sit amet.
+            </span>
+            <div class="section-portfolio__items">
+                <div class="section-portfolio__items_item">
+                    <div class="item-overlay">
+                        <img src="source/images/img_portfolio_1.jpg" alt="#">
+                        <div class="golden_title">
+                            <span>treehouse template</span>
+                        </div>
+                    </div>
+                    <h3 class="item_h3_title">treehouse template</h3>
+                    <span class="item_subtitle">web design</span>
+                </div>
+                <div class="section-portfolio__items_item">
+                    <div class="item-overlay">
+                        <img src="source/images/img_portfolio_2.jpg" alt="#">
+                        <div class="golden_title">
+                            <span>smart stationary</span>
+                        </div>
+                    </div>
+                    <h3 class="item_h3_title">smart stationary</h3>
+                    <span class="item_subtitle">print design</span>
+                </div>
+                <div class="section-portfolio__items_item">
+                    <div class="item-overlay">
+                        <img src="source/images/img_portfolio_3.jpg" alt="#">
+                        <div class="golden_title">
+                            <span>treehouse template</span>
+                        </div>
+                    </div>
+                    <h3 class="item_h3_title">treehouse template</h3>
+                    <span class="item_subtitle">web design</span>
+                </div>
+                <div class="section-portfolio__items_item">
+                    <div class="item-overlay">
+                        <img src="source/images/img_portfolio_4.jpg" alt="#">
+                        <div class="golden_title">
+                            <span>clever poster</span>
+                        </div>
+                    </div>
+                    <h3 class="item_h3_title">clever poster</h3>
+                    <span class="item_subtitle">print design</span>
+                </div>
+                <div class="section-portfolio__items_item">
+                    <div class="item-overlay">
+                        <img src="source/images/img_portfolio_5.jpg" alt="#">
+                        <div class="golden_title">
+                            <span>vinyl record</span>
+                        </div>
+                    </div>
+                    <h3 class="item_h3_title">inyl record</h3>
+                    <span class="item_subtitle">product mock-up</span>
+                </div>
+                <div class="section-portfolio__items_item">
+                    <div class="item-overlay">
+                        <img src="source/images/img_portfolio_6.jpg" alt="#">
+                        <div class="golden_title">
+                            <span>treehouse template</span>
+                        </div>
+                    </div>
+                    <h3 class="item_h3_title">treehouse template</h3>
+                    <span class="item_subtitle">web design</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-about" id="about">
+        <div class="content">
+            <h2 class="section__h2_title">
+                About us
+            </h2>
+            <span class="section_subtitle">
+                Lorem ipsum dolor sit amet consectetur
+            </span>
+            <div class="section-about__items">
+                <div class="section-about__items_item">
+                    <div class="about_item_description">
+                        <span class="section-about__items_item_date">july 2020</span>
+                        <h3 class="item_h3_title">Lorem, ipsum dolor</h3>
+                        <p class="description_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae corrupti ab aut consectetur sunt soluta</p>
+                    </div>
+                    <div class="about_item_description_image">
+                        <img src="source/images/img_about_1.jpg" alt="#">
+                    </div>
+                </div>
+                <div class="section-about__items_item right">
+                    <div class="about_item_description">
+                        <span class="section-about__items_item_date">july 2020</span>
+                        <h3 class="item_h3_title">Lorem, ipsum dolor</h3>
+                        <p class="description_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae corrupti ab aut consectetur sunt soluta</p>
+                    </div>
+                    <div class="about_item_description_image">
+                        <img src="source/images/img_about_2.jpg" alt="#">
+                    </div>
+                </div>
+                <div class="section-about__items_item">
+                    <div class="about_item_description">
+                        <span class="section-about__items_item_date">july 2020</span>
+                        <h3 class="item_h3_title">Lorem, ipsum dolor</h3>
+                        <p class="description_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae corrupti ab aut consectetur sunt soluta</p>
+                    </div>
+                    <div class="about_item_description_image">
+                        <img src="source/images/img_about_3.jpg" alt="#">
+                    </div>
+                </div>
+                <div class="section-about__items_item right">
+                    <div class="about_item_description">
+                        <span class="section-about__items_item_date">july 2020</span>
+                        <h3 class="item_h3_title">Lorem, ipsum dolor</h3>
+                        <p class="description_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae corrupti ab aut consectetur sunt soluta</p>
+                    </div>
+                    <div class="about_item_description_image">
+                        <img src="source/images/img_about_4.jpg" alt="#">
+                    </div>
+                </div>
+                <div class="section-about__items_item">
+                    <div class="about_item_description_image about_item_continue">
+                        <a href="#">our</br>story</br>continues</br>...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-team" id="team">
+        <div class="content">
+            <h2 class="section__h2_title">
+                our amazing team
+            </h2>
+            <span class="section_subtitle">
+                Lorem ipsum dolor sit amet consectetur
+            </span>
+            <div class="section-team__items">
+                <div class="section-team__member">
+                    <div class="member_img"><img src="source/images/img_team_3.png" alt="#"></div>
+                    <h3 class="item_h3_title member_name">kimberly thomson</h3>
+                    <span class="item_subtitle">web designer</span>
+                    <ul class="socials">
+                        <li class="socials_tw">
+                            <a href="#" target="_blank"></a>
+                        </li>
+                        <li class="socials_g">
+                            <a href="#" target="_blank"></a>
+                        </li>
+                        <li class="socials_pint">
+                            <a href="#" target="_blank"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="section-team__member">
+                    <div class="member_img"><img src="source/images/img_team_2.png" alt="#"></div>
+                    <h3 class="item_h3_title member_name">kimberly thomson</h3>
+                    <span class="item_subtitle">web designer</span>
+                    <ul class="socials">
+                        <li class="socials_tw">
+                            <a href="#" target="_blank"></a>
+                        </li>
+                        <li class="socials_g">
+                            <a href="#" target="_blank"></a>
+                        </li>
+                        <li class="socials_pint">
+                            <a href="#" target="_blank"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="section-team__member">
+                    <div class="member_img"><img src="source/images/img_team_1.png" alt="#"></div>
+                    <h3 class="item_h3_title member_name">kimberly thomson</h3>
+                    <span class="item_subtitle">web designer</span>
+                    <ul class="socials">
+                        <li class="socials_tw">
+                            <a href="#" target="_blank"></a>
+                        </li>
+                        <li class="socials_g">
+                            <a href="#" target="_blank"></a>
+                        </li>
+                        <li class="socials_fb">
+                            <a href="#" target="_blank"></a>
+                        </li>
+                        <li class="socials_pint">
+                            <a href="#" target="_blank"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="description_text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi velit aliquam vel rerum atque eius illum quasi deserunt beatae
+            </div>
+        </div>
+    </section>
+    <section class="section section-partners" id="partners">
+        <div class="content">
+            <ul class="partners">
+                <li class="partners_logo">
+                    <img src="source/images/img_partn_logo1.png" alt="">
+                </li>
+                <li class="partners_logo">
+                    <img src="source/images/img_partn_logo2.png" alt="">
+                </li>
+                <li class="partners_logo">
+                    <img src="source/images/img_partn_logo3.png" alt="">
+                </li>
+                <li class="partners_logo">
+                    <img src="source/images/img_partn_logo4.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section section-contact" id="contact">
+        <div class="content">
+            <h2 class="section__h2_title">
+                contact us
+            </h2>
+            <span class="section_subtitle">
+                Lorem ipsum dolor sit amet consectetur
+            </span>
+            <form id="contact-form">
+                <div class="contact-form_inputs">
+                    <input type="text" maxlength="15" required placeholder="your name &ast;">
+                    <input type="email" required placeholder="your e-mail &ast;">
+                    <input type="text" placeholder="subject">
+                </div>
+                <div class="contact-form_textarea">
+                    <textarea required placeholder="your message &ast;"></textarea>
+                </div>
+            </form>
+            <button form="contact-form" type="submit" class="btn">send message</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="content">
+            <span>&COPY;Copyright 2014 FreebiesXpress.com</span>
+            <ul class="socials">
+                <li class="socials_tw">
+                    <a href="#" target="_blank"></a>
+                </li>
+                <li class="socials_g">
+                    <a href="#" target="_blank"></a>
+                </li>
+                <li class="socials_fb">
+                    <a href="#" target="_blank"></a>
+                </li>
+                <li class="socials_pint">
+                    <a href="#" target="_blank"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
