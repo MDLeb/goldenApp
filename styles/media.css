@@ -90,7 +90,7 @@
     .header.active {
         position: fixed;
         background-color: black;
-        height: 100vh;
+        height: 100%;
         padding-top: 50px;
         top: 0;
     }
